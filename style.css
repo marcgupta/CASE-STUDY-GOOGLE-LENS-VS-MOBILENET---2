@@ -1,0 +1,372 @@
+body {
+
+    background-color: rgb(156, 145, 145);
+    
+    }
+    
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #968c8ca4; 
+      }
+       
+      ::-webkit-scrollbar-thumb {
+        background: rgba(99, 98, 98, 0.658); 
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+    
+      .plate {
+    
+        background-color: white;
+        border-radius: 10px;
+        width: 1250px;
+        height: 225px;
+        box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+        float: center;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding-top: 10px;
+        
+        }
+
+        .plateonplate {
+    
+            background-color: #968c8ca4;
+            border-radius: 10px;
+            width: 450px;
+            height: 50px;
+            box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+            margin-left: 325px;
+            padding-top: 10px;
+            position: absolute;
+            top: 335px;
+            
+            }
+
+            .plateonplate2 {
+    
+                background-color: #968c8ca4;
+                border-radius: 10px;
+                width: 450px;
+                height: 50px;
+                box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+                margin-left: 800px;
+                padding-top: 10px;
+                position: absolute;
+                top: 335px;
+                
+                }
+
+
+            .subtitle {
+            
+              font-size: 25px;
+              font-family: Montserrat;
+              font-weight: 600;    
+              margin-left: 400px;
+              position: absolute;
+              top: 60px;
+          
+          }
+            
+            .sub-subtitle {
+            
+                font-size: 20px;
+                font-family: Montserrat;
+                font-weight: 600;    
+                margin-left: 575px;
+                position: absolute;
+                top: 100px;
+            
+            }
+    
+            .extra-subtitle {
+            
+                font-size: 18px;
+                font-family: Montserrat;
+                font-weight: 600;    
+                margin-left: 475px;
+                position: absolute;
+                top: 140px;
+                text-align: center;
+            
+            }
+
+            .extra-subtitle2 {
+            
+                font-size: 18px;
+                font-family: Montserrat;
+                font-weight: 600;    
+                margin-left: 25px;
+                position: absolute;
+                top: 10px;
+                text-align: center;
+            
+            }
+
+            .mini-subtitle {
+            
+                font-size: 17px;
+                font-family: Montserrat;
+                font-weight: 600;    
+                margin-left: 750px;
+                position: absolute;
+                top: 400px;
+                text-align: center;
+            
+            }
+            .mini-subtitle2 {
+            
+                font-size: 17px;
+                font-family: Montserrat;
+                font-weight: 600;    
+                margin-left: 450px;
+                position: absolute;
+                top: 420px;
+                text-align: center;
+            
+            }
+            
+                
+                .effect {
+                
+                    animation: transitionIn 1.5s;
+                
+                }
+                
+                @keyframes transitionIn {
+                
+                from {
+                
+                opacity: 0;
+                transform: rotateX(-10deg);
+                
+                }
+                
+                to {
+                
+                    opacity: 1;
+                    transform: rotateX(0deg);
+                
+                }
+                
+                }
+
+
+
+                  .img {
+
+                    border-radius: 10px;
+                    height: 200px;
+                    margin-left: 10px;
+
+                  }
+
+                  .plateonplate3 {
+    
+                    background-color: #968c8ca4;
+                    border-radius: 10px;
+                    width: 450px;
+                    height: 50px;
+                    box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+                    margin-left: 325px;
+                    padding-top: 10px;
+                    position: absolute;
+                    top: 610px;
+                    
+                    }
+        
+                    .plateonplate4 {
+            
+                        background-color: #968c8ca4;
+                        border-radius: 10px;
+                        width: 450px;
+                        height: 50px;
+                        box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+                        margin-left: 800px;
+                        padding-top: 10px;
+                        position: absolute;
+                        top: 610px;
+                        
+                        }
+
+                      .mini-subtitle3 {
+            
+                        font-size: 17px;
+                        font-family: Montserrat;
+                        font-weight: 600;    
+                        margin-left: 750px;
+                        position: absolute;
+                        top: 675px;
+                        text-align: center;
+                    
+                    }
+                    .mini-subtitle4 {
+                    
+                        font-size: 17px;
+                        font-family: Montserrat;
+                        font-weight: 600;    
+                        margin-left: 450px;
+                        position: absolute;
+                        top: 700px;
+                        text-align: center;
+                    
+                    }
+
+                    .plateonplate5 {
+    
+                      background-color: #968c8ca4;
+                      border-radius: 10px;
+                      width: 450px;
+                      height: 50px;
+                      box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+                      margin-left: 325px;
+                      padding-top: 10px;
+                      position: absolute;
+                      top: 885px;
+                      
+                      }
+          
+                      .plateonplate6 {
+              
+                          background-color: #968c8ca4;
+                          border-radius: 10px;
+                          width: 450px;
+                          height: 50px;
+                          box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+                          margin-left: 800px;
+                          padding-top: 10px;
+                          position: absolute;
+                          top: 885px;
+                          
+                          }
+  
+                        .mini-subtitle5 {
+              
+                          font-size: 17px;
+                          font-family: Montserrat;
+                          font-weight: 600;    
+                          margin-left: 750px;
+                          position: absolute;
+                          top: 950px;
+                          text-align: center;
+                      
+                      }
+                      .mini-subtitle6 {
+                      
+                          font-size: 17px;
+                          font-family: Montserrat;
+                          font-weight: 600;    
+                          margin-left: 450px;
+                          position: absolute;
+                          top: 975px;
+                          text-align: center;
+                      
+                      }
+
+                      .plateonplate7 {
+    
+                        background-color: #968c8ca4;
+                        border-radius: 10px;
+                        width: 450px;
+                        height: 50px;
+                        box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+                        margin-left: 325px;
+                        padding-top: 10px;
+                        position: absolute;
+                        top: 1160px;
+                        
+                        }
+            
+                        .plateonplate8 {
+                
+                            background-color: #968c8ca4;
+                            border-radius: 10px;
+                            width: 450px;
+                            height: 50px;
+                            box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+                            margin-left: 800px;
+                            padding-top: 10px;
+                            position: absolute;
+                            top: 1160px;
+                            
+                            }
+    
+                          .mini-subtitle7 {
+                
+                            font-size: 17px;
+                            font-family: Montserrat;
+                            font-weight: 600;    
+                            margin-left: 750px;
+                            position: absolute;
+                            top: 1225px;
+                            text-align: center;
+                        
+                        }
+                        .mini-subtitle8 {
+                        
+                            font-size: 17px;
+                            font-family: Montserrat;
+                            font-weight: 600;    
+                            margin-left: 450px;
+                            position: absolute;
+                            top: 1250px;
+                            text-align: center;
+                        
+                        }
+
+                        .plateonplate9 {
+    
+                          background-color: #968c8ca4;
+                          border-radius: 10px;
+                          width: 450px;
+                          height: 50px;
+                          box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+                          margin-left: 325px;
+                          padding-top: 10px;
+                          position: absolute;
+                          top: 1435px;
+                          
+                          }
+              
+                          .plateonplate10 {
+                  
+                              background-color: #968c8ca4;
+                              border-radius: 10px;
+                              width: 450px;
+                              height: 50px;
+                              box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+                              margin-left: 800px;
+                              padding-top: 10px;
+                              position: absolute;
+                              top: 1435px;
+                              
+                              }
+      
+                            .mini-subtitle9 {
+                  
+                              font-size: 17px;
+                              font-family: Montserrat;
+                              font-weight: 600;    
+                              margin-left: 750px;
+                              position: absolute;
+                              top: 1500px;
+                              text-align: center;
+                          
+                          }
+                          .mini-subtitle10 {
+                          
+                              font-size: 17px;
+                              font-family: Montserrat;
+                              font-weight: 600;    
+                              margin-left: 450px;
+                              position: absolute;
+                              top: 1525px;
+                              text-align: center;
+                          
+                          }
